@@ -1,0 +1,3 @@
+/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/FeatureCompareInterface.dir

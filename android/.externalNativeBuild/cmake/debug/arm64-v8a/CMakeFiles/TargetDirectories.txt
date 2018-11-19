@@ -1,0 +1,3 @@
+D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/FeatureCompareInterface.dir
+D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

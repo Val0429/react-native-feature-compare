@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "FeatureCompareInterface-Debug-x86_64": {
+      "artifactName": "FeatureCompareInterface",
+      "buildCommand": "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\x86_64 --target FeatureCompareInterface",
+      "abi": "x86_64",
+      "output": "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/build/intermediates/cmake/debug/obj/x86_64/libFeatureCompareInterface.so"
+    },
+    "FeatureCompareAndroid-Debug-x86_64": {
+      "artifactName": "FeatureCompareAndroid",
+      "abi": "x86_64",
+      "output": "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/src/main/jniLibs/x86_64/libFeatureCompareAndroid.so"
+    }
+  }
+}

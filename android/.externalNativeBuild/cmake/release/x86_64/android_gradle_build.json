@@ -1,0 +1,39 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"FeatureCompareAndroid-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "FeatureCompareAndroid",
+			"buildType" : "release",
+			"output" : "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/src/main/jniLibs/x86_64/libFeatureCompareAndroid.so",
+			"toolchain" : "184588597"
+		},
+		"FeatureCompareInterface-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "FeatureCompareInterface",
+			"buildCommand" : "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\release\\x86_64 --target FeatureCompareInterface",
+			"buildType" : "release",
+			"output" : "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/build/intermediates/cmake/release/obj/x86_64/libFeatureCompareInterface.so",
+			"toolchain" : "184588597"
+		}
+	},
+	"toolchains" : 
+	{
+		"184588597" : 
+		{
+			"cCompilerExecutable" : "D:/Users/Neo/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/Neo/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

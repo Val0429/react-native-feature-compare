@@ -1,0 +1,39 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"FeatureCompareAndroid-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "FeatureCompareAndroid",
+			"buildType" : "release",
+			"output" : "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/src/main/jniLibs/arm64-v8a/libFeatureCompareAndroid.so",
+			"toolchain" : "184588597"
+		},
+		"FeatureCompareInterface-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "FeatureCompareInterface",
+			"buildCommand" : "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target FeatureCompareInterface",
+			"buildType" : "release",
+			"output" : "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/build/intermediates/cmake/release/obj/arm64-v8a/libFeatureCompareInterface.so",
+			"toolchain" : "184588597"
+		}
+	},
+	"toolchains" : 
+	{
+		"184588597" : 
+		{
+			"cCompilerExecutable" : "D:/Users/Neo/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/Neo/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
