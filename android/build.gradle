@@ -1,11 +1,12 @@
 
 buildscript {
     repositories {
+        google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 
@@ -17,27 +18,20 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.3"
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-        externalNativeBuild {
-            cmake {
-                cppFlags "-std=c++11"
-            }
-            ndk {
-                abiFilters "armeabi-v7a"
-            }
-            ndkBuild {
-                arguments "NDK_TOOLCHAIN_VERSION=4.9"
-            }
-        }
         dexOptions {
             javaMaxHeapSize "4608m"
         }
+    }
+    packagingOptions {
+        pickFirst "lib/x86/*"
+        pickFirst "lib/armeabi-v7a/*"
     }
     splits {
         abi {
@@ -50,23 +44,6 @@ android {
     lintOptions {
         abortOnError false
     }
-//    libraryVariants.all { variant ->
-//        variant.outputs.each { output ->
-//            // For each separate APK per architecture, set a unique version code as described here:
-//            // http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits
-//            def versionCodes = ["armeabi-v7a":1]
-//            def abi = output.getFilter(com.android.build.OutputFile.ABI)
-//            if (abi != null) {  // null for the universal-debug, universal-release variants
-//                output.versionCodeOverride =
-//                        versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
-//            }
-//        }
-//    }
-    externalNativeBuild {
-        cmake {
-            path 'CMakeLists.txt'
-        }
-    }
 }
 
 repositories {
@@ -74,11 +51,19 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: "libs", include: ["*.jar"])
-    compile 'com.facebook.react:react-native:+'
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'com.facebook.react:react-native:+'
+    implementation (name:'libisapfeaturecompare-release', ext:'aar')
 }
 
 task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
+}
+
+//for using aar
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
 }

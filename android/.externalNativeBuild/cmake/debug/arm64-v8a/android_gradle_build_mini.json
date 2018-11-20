@@ -1,6 +1,6 @@
 {
   "buildFiles": [
-    "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/CMakeLists.txt"
+    "D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\CMakeLists.txt"
   ],
   "cleanCommands": [
     "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
@@ -9,13 +9,13 @@
     "FeatureCompareAndroid-Debug-arm64-v8a": {
       "artifactName": "FeatureCompareAndroid",
       "abi": "arm64-v8a",
-      "output": "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/src/main/jniLibs/arm64-v8a/libFeatureCompareAndroid.so"
+      "output": "D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\src\\main\\jniLibs\\arm64-v8a\\libFeatureCompareAndroid.so"
     },
     "FeatureCompareInterface-Debug-arm64-v8a": {
       "artifactName": "FeatureCompareInterface",
       "buildCommand": "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target FeatureCompareInterface",
       "abi": "arm64-v8a",
-      "output": "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/build/intermediates/cmake/debug/obj/arm64-v8a/libFeatureCompareInterface.so"
+      "output": "D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libFeatureCompareInterface.so"
     }
   }
 }

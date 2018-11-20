@@ -2,48 +2,30 @@
 {
 	"buildFiles" : 
 	[
-		"/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/CMakeLists.txt"
+		"D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/CMakeLists.txt"
 	],
 	"cleanCommands" : 
 	[
-		"/Users/valliu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /react-native/AttendanceClient/node_modules/react-native-feature-compare/android/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+		"D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
 	],
-	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
-		"FeatureCompareAndroid-Release-armeabi-v7a" : 
-		{
-			"abi" : "armeabi-v7a",
-			"artifactName" : "FeatureCompareAndroid",
-			"buildType" : "release",
-			"output" : "/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/src/main/jniLibs/armeabi-v7a/libFeatureCompareAndroid.so",
-			"toolchain" : "2123791275690776460"
-		},
 		"FeatureCompareInterface-Release-armeabi-v7a" : 
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "FeatureCompareInterface",
-			"buildCommand" : "/Users/valliu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /react-native/AttendanceClient/node_modules/react-native-feature-compare/android/.externalNativeBuild/cmake/release/armeabi-v7a --target FeatureCompareInterface",
+			"buildCommand" : "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target FeatureCompareInterface",
 			"buildType" : "release",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/valliu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/valliu/Library/Android/sdk/ndk-bundle/sysroot  -DFeatureCompareInterface_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/valliu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/valliu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/valliu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/valliu/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/src/main/cpp/FeatureCompareInterface.cpp",
-					"workingDirectory" : "/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/.externalNativeBuild/cmake/release/armeabi-v7a"
-				}
-			],
-			"output" : "/react-native/AttendanceClient/node_modules/react-native-feature-compare/android/build/intermediates/cmake/release/obj/armeabi-v7a/libFeatureCompareInterface.so",
-			"toolchain" : "2123791275690776460"
+			"output" : "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/build/intermediates/cmake/release/obj/armeabi-v7a/libFeatureCompareInterface.so",
+			"toolchain" : "184588597"
 		}
 	},
 	"toolchains" : 
 	{
-		"2123791275690776460" : 
+		"184588597" : 
 		{
-			"cCompilerExecutable" : "/Users/valliu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/Users/valliu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+			"cCompilerExecutable" : "D:/Users/Neo/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/Neo/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

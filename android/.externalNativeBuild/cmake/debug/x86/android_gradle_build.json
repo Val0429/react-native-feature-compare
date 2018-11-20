@@ -6,23 +6,15 @@
 	],
 	"cleanCommands" : 
 	[
-		"D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+		"D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
 	],
 	"libraries" : 
 	{
-		"FeatureCompareAndroid-Debug-x86" : 
-		{
-			"abi" : "x86",
-			"artifactName" : "FeatureCompareAndroid",
-			"buildType" : "debug",
-			"output" : "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/src/main/jniLibs/x86/libFeatureCompareAndroid.so",
-			"toolchain" : "184588597"
-		},
 		"FeatureCompareInterface-Debug-x86" : 
 		{
 			"abi" : "x86",
 			"artifactName" : "FeatureCompareInterface",
-			"buildCommand" : "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\x86 --target FeatureCompareInterface",
+			"buildCommand" : "D:\\Users\\Neo\\AppData\\Local\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\android\\STUDY\\react-native-module\\react-native-feature-compare\\android\\.externalNativeBuild\\cmake\\debug\\x86 --target FeatureCompareInterface",
 			"buildType" : "debug",
 			"output" : "D:/work/android/STUDY/react-native-module/react-native-feature-compare/android/build/intermediates/cmake/debug/obj/x86/libFeatureCompareInterface.so",
 			"toolchain" : "184588597"
