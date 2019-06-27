@@ -17,12 +17,12 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         dexOptions {
@@ -30,6 +30,7 @@ android {
         }
     }
     packagingOptions {
+        pickFirst "lib/x64/*"
         pickFirst "lib/x86/*"
         pickFirst "lib/armeabi-v7a/*"
     }
@@ -38,7 +39,7 @@ android {
             reset()
             enable enableSeparateBuildPerCPUArchitecture
             universalApk false  // If true, also generate a universal APK
-            include "armeabi-v7a", "x86"
+            include "armeabi-v7a", "x86", "x64"
         }
     }
     lintOptions {
@@ -53,7 +54,8 @@ repositories {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'com.facebook.react:react-native:+'
-    implementation (name:'libisapfeaturecompare-release', ext:'aar')
+//    implementation (name:'libisapfeaturecompare-release', ext:'aar')
+    implementation (name:'libisapfeaturecompare-release', ext:'jar')
 }
 
 task copyDownloadableDepsToLibs(type: Copy) {
@@ -67,3 +69,23 @@ repositories{
         dirs 'libs'
     }
 }
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task makeJar(type: Copy) {
+    from('build/intermediates/packaged-classes/release/')
+    into('build/outputs/jar/')
+    include('classes.jar')
+    rename('classes.jar', 'react-native-feature-compare.jar')
+}
+
+task clearJar(type: Delete) {
+    delete 'build/outputs/jar/react-native-feature-compare.jar'
+}
+
+makeJar.dependsOn(clearJar, build)
